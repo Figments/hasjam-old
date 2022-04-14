@@ -6,3 +6,10 @@ node_modules
 .env
 .env.*
 !.env.example
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
+package-lock.json
+sample.env
+supabase/config.toml
