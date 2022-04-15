@@ -3,3 +3,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Text */
+    --body-text: 'Inter', sans-serif;
+    --ui-text: 'Fira Code', sans-serif;
+}
+html,
+body {
+    @apply relative w-full h-full overflow-x-hidden overflow-y-hidden;
+}
+body {
+    @apply m-0 box-border;
+    font-family: var(--body-text);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--ui-text);
+    @apply leading-normal relative top-0.5 font-medium;
+}

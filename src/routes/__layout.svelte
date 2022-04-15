@@ -4,5 +4,4 @@
 </script>
 
 <Nav />
-
 <slot />
