@@ -11,9 +11,6 @@
 		<div>HASJAM</div>
 		<div>HASJAM</div>
 		<div>HASJAM</div>
-		<div>HASJAM</div>
-		<div>HASJAM</div>
-		<div>HASJAM</div>
 	</div>
 </div>
 <nav>
@@ -24,25 +21,30 @@
 
 <style type="text/scss">
 .ticker-container {
+	position: fixed;
 	width: 100%;
-	font-size: 6rem;
+	font-size: 4rem;
 	font-style: italic;
 	overflow: hidden;
 	border: 1rem solid $drip-red;
+	height: 8rem;
 	background: $drip-yellow;
-	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: $drip-red;
 	-webkit-text-fill-color: $drip-yellow;
+	z-index: 100;
+
 
 	.ticker {
 		width: 100%;
-		padding: 1rem;
 		white-space: nowrap;
-        animation: moving-left 30s linear infinite;
+		display: block;
+        animation: moving-left 15s linear infinite;	
+		z-index: 100;
 
 		div {
-			display: inline;
-			width: 300px;
+			display: inline-block;
+			margin: 0 5rem;
 		}
 	}
 }
@@ -52,21 +54,29 @@
 		transform: translate3d(0%, 0, 0);
 	}
 	100% {
-		transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-50%, 0, 0);
 	}
 }
 
 nav {
-	width: 100%;
+	position: fixed;
+	width: 4.6rem;
 	display: flex;
-	justify-content: center;
+	flex-flow: column;
 	margin: 0rem 0 5rem;
+	text-orientation: upright;
+	border: 1rem solid $drip-red;
+	height: 100vh;
+	background: $drip-yellow;
+	padding: 8rem 0;
 
 	a {
-		margin: 0 5rem;
+		display: block;
+		margin: 2rem 0;
 		font-size: 1.6rem;
 		text-transform: uppercase;
-		padding: 1rem;
+		writing-mode: sideways-rl;
+		color: $drip-red;
 	}
 }
 </style>
