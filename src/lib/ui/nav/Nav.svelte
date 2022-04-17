@@ -1,8 +1,8 @@
 <nav class="w-full px-4 py-6 bg-zinc-700 text-white flex items-center">
 	<h1 class="text-2xl mr-4">has<span class="font-bold text-red-500">JAM</span></h1>
 	<a href="/">Home</a>
-	<a href="/">Past Jams</a>
-	<a href="/">About</a>
+	<a href="pastjams">Past Jams</a>
+	<a href="about">About</a>
 </nav>
 
 <style lang="scss">
