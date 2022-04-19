@@ -20,6 +20,7 @@
 	position: fixed;
 	width: 100%;
 	bottom: 0px;
+	font-family: var(--ui-text);
 	font-size: 4rem;
 	font-style: bold;
 	overflow: hidden;
