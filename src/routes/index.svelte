@@ -4,6 +4,10 @@
     }
 </style>
 
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
+
 <h1>Under construction</h1>
 <p>We're using sveltekit, visit <a href="https://kit.svelte.dev">kit.svelte.dev</a>
     to read the documentation

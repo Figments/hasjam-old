@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>About</title>
+</svelte:head>
+
 <div>
 <h1>About page</h1>
 <p>HasJam is a community driven hackathon/code jam.
