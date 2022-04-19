@@ -56,15 +56,15 @@
 <div class="ticker-container">
 	<div class="ticker">
 		<div><span class="has">has</span>JAM</div>
+		<div><span class="has">Pepe</span>La</div>
 		<div><span class="has">has</span>JAM</div>
+		<div><span class="has">Pepe</span>La</div>
 		<div><span class="has">has</span>JAM</div>
+		<div><span class="has">Pepe</span>La</div>
 		<div><span class="has">has</span>JAM</div>
+		<div><span class="has">Pepe</span>La</div>
 		<div><span class="has">has</span>JAM</div>
-		<div><span class="has">has</span>JAM</div>
-		<div><span class="has">has</span>JAM</div>
-		<div><span class="has">has</span>JAM</div>
-		<div><span class="has">has</span>JAM</div>
-		<div><span class="has">has</span>JAM</div>
+		<div><span class="has">Pepe</span>La</div>
 		<div><span class="has">has</span>JAM</div>
 		
 		
