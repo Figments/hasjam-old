@@ -7,3 +7,11 @@ export const github = async () => {
 		console.error(e);
 	}
 };
+
+export const twitter = async () => {
+	try {
+		await supabase.auth.signIn({ provider: 'twitter' });
+	} catch (e) {
+		console.error(e);
+	}
+};

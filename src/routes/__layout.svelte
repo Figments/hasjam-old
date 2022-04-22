@@ -6,6 +6,6 @@
 <header>
 	<Nav />
 </header>
-<main>
+<main class="h-full">
 	<slot />
 </main>
