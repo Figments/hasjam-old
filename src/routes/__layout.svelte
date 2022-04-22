@@ -3,5 +3,9 @@
 	import { Nav } from '../lib/ui/nav';
 </script>
 
-<Nav />
-<slot />
+<header>
+	<Nav />
+</header>
+<main>
+	<slot />
+</main>
