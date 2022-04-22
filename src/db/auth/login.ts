@@ -15,3 +15,12 @@ export const twitter = async () => {
 		console.error(e);
 	}
 };
+
+export const email = async (event) => {
+	try {
+		let email = event?.target?.elements[0].value;
+		await supabase.auth.signIn({ email });
+	} catch (e) {
+		console.error(e);
+	}
+};

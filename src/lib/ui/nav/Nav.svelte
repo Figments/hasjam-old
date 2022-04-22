@@ -10,7 +10,7 @@
 	<a href="about">About</a>
 	{#if $user}
 		<div class="ml-auto flex items-center gap-4">
-			<h2>Hey, {$user?.user_metadata?.preferred_username}</h2>
+			<h2>Hey, {$user?.user_metadata?.preferred_username ?? $user?.email}</h2>
 			<button on:click={logout} class="bg-red-500 p-2 rounded">sign out</button>
 		</div>
 	{:else}
