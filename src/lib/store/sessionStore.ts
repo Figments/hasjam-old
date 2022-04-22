@@ -1,6 +1,4 @@
+import type { User } from '@supabase/supabase-js';
 import { writable } from 'svelte/store';
-import { supabase } from '../../db/supabase';
 
-const currentUser = supabase.auth.user();
-
-export const user = writable(currentUser);
+export const user = writable<User>();
