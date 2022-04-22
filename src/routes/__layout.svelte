@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
 	import '../app.scss';
 	import { Nav } from '../lib/ui/nav';
 </script>
 
-<Nav />
-<slot />
+<header>
+	<Nav />
+</header>
+<main class="h-full">
+	<slot />
+</main>

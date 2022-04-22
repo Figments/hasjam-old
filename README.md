@@ -2,10 +2,36 @@
 
 Website of the Hascord #stem-comp-sci hackathons.
 
-## Setup
+## Environment Variables
 
-1) Install the latest Node.js version for your operating system
-2) Clone this repo
-3) Create a `.env` file with the necessary info based on the outline provided in `sample.env`
-4) Run `yarn install` to fetch and install all packages
-5) Run `yarn run dev` to spin up SvelteKit development server
+-   Head over to https://supabase.com/ and create an account and project
+
+-   Create a `.env` file with the necessary info based on the outline provided in `.env.example`
+
+## Run Locally
+
+Install the latest [Node.js](https://nodejs.org/en/) version for your operating system
+
+Clone the project
+
+```bash
+git clone git@github.com:Figments/hasjam.git
+```
+
+Go to the project directory
+
+```bash
+cd hasjam
+```
+
+Install dependencies
+
+```bash
+yarn install
+```
+
+Start the server
+
+```bash
+yarn run dev
+```
